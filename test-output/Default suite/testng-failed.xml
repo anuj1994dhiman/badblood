@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="BadBlood.BaseTest.Basetest">
+      <class name="BadBlood.Tests.TestHomePage">
         <methods>
-          <include name="initDriver"/>
-          <include name="test1"/>
+          <include name="terminateBrowser"/>
+          <include name="launch"/>
+          <include name="test2"/>
         </methods>
-      </class> <!-- BadBlood.BaseTest.Basetest -->
+      </class> <!-- BadBlood.Tests.TestHomePage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

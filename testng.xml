@@ -8,11 +8,6 @@
 	<test thread-count="5" name="chromeTest">
 
 		<parameter name="browser" value="chrome"></parameter>
-		<groups>
-			<run>
-				<include name="smoke"></include>
-			</run>
-		</groups>
 		<classes>
 			<class name="BadBlood.Tests.TestHomePage" />
 		</classes>
