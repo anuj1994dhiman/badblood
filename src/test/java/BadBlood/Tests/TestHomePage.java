@@ -13,12 +13,12 @@ import BadBlood.BaseTest.MyRetry;
 
 public class TestHomePage extends Basetest{
 	@Test(dataProvider = "dataprovider")
-	public void test1(String cell1, String cell2, String cell3 ){
+	public void test1(String cell1, String cell2 ){
 //	public void test1(HashMap<String, String> input) {
 //		landingPage.login(input.get("email"), input.get("pass"));
 		System.out.println(cell1);
 		System.out.println(cell2);
-		System.out.println(cell3);
+		//System.out.println(cell3);
 	}
 	@Test(retryAnalyzer = MyRetry.class)
 	public void test2() throws InterruptedException {

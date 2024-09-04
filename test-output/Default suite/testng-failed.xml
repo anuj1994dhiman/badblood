@@ -5,9 +5,9 @@
     <classes>
       <class name="BadBlood.Tests.TestHomePage">
         <methods>
+          <include name="test1"/>
           <include name="terminateBrowser"/>
           <include name="launch"/>
-          <include name="test2"/>
         </methods>
       </class> <!-- BadBlood.Tests.TestHomePage -->
     </classes>

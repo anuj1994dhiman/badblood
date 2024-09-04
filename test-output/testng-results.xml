@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results retried="1" ignored="1" total="6" passed="3" failed="1" skipped="0">
+<testng-results retried="1" ignored="1" total="5" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-29T16:02:15 IST" name="Suite" finished-at="2024-08-29T16:02:32 IST" duration-ms="17006">
+  <suite started-at="2024-09-03T00:42:17 IST" name="Suite" finished-at="2024-09-03T00:42:30 IST" duration-ms="13005">
     <groups>
     </groups>
-    <test started-at="2024-08-29T16:02:15 IST" name="chromeTest" finished-at="2024-08-29T16:02:32 IST" duration-ms="17006">
+    <test started-at="2024-09-03T00:42:17 IST" name="chromeTest" finished-at="2024-09-03T00:42:30 IST" duration-ms="13005">
       <class name="BadBlood.Tests.TestHomePage">
-        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:BadBlood.Tests.TestHomePage@336f1079]" started-at="2024-08-29T16:02:16 IST" name="launch" finished-at="2024-08-29T16:02:19 IST" duration-ms="3303" status="PASS">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:BadBlood.Tests.TestHomePage@336f1079]" started-at="2024-09-03T00:42:18 IST" name="launch" finished-at="2024-09-03T00:42:20 IST" duration-ms="2021" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,43 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:BadBlood.Tests.TestHomePage@336f1079]" started-at="2024-08-29T16:02:19 IST" name="test1" data-provider="dataprovider" finished-at="2024-08-29T16:02:19 IST" duration-ms="12" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[anu@example.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[987]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:BadBlood.Tests.TestHomePage@336f1079]" started-at="2024-08-29T16:02:19 IST" name="terminateBrowser" finished-at="2024-08-29T16:02:20 IST" duration-ms="190" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- terminateBrowser -->
-        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:BadBlood.Tests.TestHomePage@336f1079]" started-at="2024-08-29T16:02:20 IST" name="launch" finished-at="2024-08-29T16:02:22 IST" duration-ms="2476" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch -->
-        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:BadBlood.Tests.TestHomePage@336f1079]" started-at="2024-08-29T16:02:22 IST" name="test1" data-provider="dataprovider" finished-at="2024-08-29T16:02:22 IST" duration-ms="2" status="PASS">
+        <test-method signature="test1(java.lang.String,java.lang.String)[pri:0, instance:BadBlood.Tests.TestHomePage@336f1079]" started-at="2024-09-03T00:42:20 IST" name="test1" data-provider="dataprovider" finished-at="2024-09-03T00:42:20 IST" duration-ms="16" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -66,20 +30,15 @@
                 <![CDATA[Anu@1234]]>
               </value>
             </param>
-            <param index="2">
-              <value>
-                <![CDATA[654]]>
-              </value>
-            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:BadBlood.Tests.TestHomePage@336f1079]" started-at="2024-08-29T16:02:22 IST" name="terminateBrowser" finished-at="2024-08-29T16:02:22 IST" duration-ms="145" status="PASS">
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:BadBlood.Tests.TestHomePage@336f1079]" started-at="2024-09-03T00:42:20 IST" name="terminateBrowser" finished-at="2024-09-03T00:42:20 IST" duration-ms="168" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- terminateBrowser -->
-        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:BadBlood.Tests.TestHomePage@336f1079]" started-at="2024-08-29T16:02:22 IST" name="launch" finished-at="2024-08-29T16:02:25 IST" duration-ms="2635" status="PASS">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:BadBlood.Tests.TestHomePage@336f1079]" started-at="2024-09-03T00:42:20 IST" name="launch" finished-at="2024-09-03T00:42:22 IST" duration-ms="2555" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -90,7 +49,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:BadBlood.Tests.TestHomePage@336f1079]" started-at="2024-08-29T16:02:25 IST" name="test1" data-provider="dataprovider" finished-at="2024-08-29T16:02:25 IST" duration-ms="1" status="PASS">
+        <test-method signature="test1(java.lang.String,java.lang.String)[pri:0, instance:BadBlood.Tests.TestHomePage@336f1079]" started-at="2024-09-03T00:42:22 IST" name="test1" data-provider="dataprovider" finished-at="2024-09-03T00:42:22 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -102,20 +61,15 @@
                 <![CDATA[Anu@1234]]>
               </value>
             </param>
-            <param index="2">
-              <value>
-                <![CDATA[321]]>
-              </value>
-            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:BadBlood.Tests.TestHomePage@336f1079]" started-at="2024-08-29T16:02:25 IST" name="terminateBrowser" finished-at="2024-08-29T16:02:25 IST" duration-ms="137" status="PASS">
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:BadBlood.Tests.TestHomePage@336f1079]" started-at="2024-09-03T00:42:22 IST" name="terminateBrowser" finished-at="2024-09-03T00:42:23 IST" duration-ms="174" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- terminateBrowser -->
-        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:BadBlood.Tests.TestHomePage@336f1079]" started-at="2024-08-29T16:02:25 IST" name="launch" finished-at="2024-08-29T16:02:28 IST" duration-ms="2495" status="PASS">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:BadBlood.Tests.TestHomePage@336f1079]" started-at="2024-09-03T00:42:23 IST" name="launch" finished-at="2024-09-03T00:42:25 IST" duration-ms="2664" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -126,7 +80,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method retried="true" signature="test2()[pri:0, instance:BadBlood.Tests.TestHomePage@336f1079]" started-at="2024-08-29T16:02:28 IST" name="test2" finished-at="2024-08-29T16:02:29 IST" duration-ms="1358" status="SKIP">
+        <test-method retried="true" signature="test2()[pri:0, instance:BadBlood.Tests.TestHomePage@336f1079]" started-at="2024-09-03T00:42:25 IST" name="test2" finished-at="2024-09-03T00:42:27 IST" duration-ms="1302" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Incorrect email o password.] but found [Incorrect email or password.]]]>
@@ -174,11 +128,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:BadBlood.Tests.TestHomePage@336f1079]" started-at="2024-08-29T16:02:29 IST" name="terminateBrowser" finished-at="2024-08-29T16:02:29 IST" duration-ms="159" status="PASS">
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:BadBlood.Tests.TestHomePage@336f1079]" started-at="2024-09-03T00:42:27 IST" name="terminateBrowser" finished-at="2024-09-03T00:42:27 IST" duration-ms="175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- terminateBrowser -->
-        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:BadBlood.Tests.TestHomePage@336f1079]" started-at="2024-08-29T16:02:29 IST" name="launch" finished-at="2024-08-29T16:02:31 IST" duration-ms="1573" status="PASS">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:BadBlood.Tests.TestHomePage@336f1079]" started-at="2024-09-03T00:42:27 IST" name="launch" finished-at="2024-09-03T00:42:28 IST" duration-ms="1572" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -189,7 +143,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="test2()[pri:0, instance:BadBlood.Tests.TestHomePage@336f1079]" started-at="2024-08-29T16:02:31 IST" name="test2" finished-at="2024-08-29T16:02:32 IST" duration-ms="1305" status="FAIL">
+        <test-method signature="test2()[pri:0, instance:BadBlood.Tests.TestHomePage@336f1079]" started-at="2024-09-03T00:42:28 IST" name="test2" finished-at="2024-09-03T00:42:30 IST" duration-ms="1331" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Incorrect email o password.] but found [Incorrect email or password.]]]>
@@ -237,7 +191,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:BadBlood.Tests.TestHomePage@336f1079]" started-at="2024-08-29T16:02:32 IST" name="terminateBrowser" finished-at="2024-08-29T16:02:32 IST" duration-ms="182" status="PASS">
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:BadBlood.Tests.TestHomePage@336f1079]" started-at="2024-09-03T00:42:30 IST" name="terminateBrowser" finished-at="2024-09-03T00:42:30 IST" duration-ms="151" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- terminateBrowser -->
